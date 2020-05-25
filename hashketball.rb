@@ -186,7 +186,7 @@ game_hash.each do  |team_location, info|
 info.each do |key,value|
   if key == :players 
     value.each do |player|
-      if input == player[:player_name]
+      if players_name == player[:player_name]
         return player
 end
 end
