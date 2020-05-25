@@ -162,8 +162,9 @@ def team_names
 array= []
 # Write code here
 game_hash.map do  |team_location, info|
-array.puhs (info[:team_name])
+array.push (info[:team_name])
 end
+return array
 end
 
 def player_numbers(team_name)
