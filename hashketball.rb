@@ -174,6 +174,7 @@ game_hash.each do  |team_location, info|
          final_array.push (info[:players][index][:number])
 end
 end
+end
 return final_array
 end
 
