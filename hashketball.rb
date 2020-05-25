@@ -180,13 +180,13 @@ end
 return final_array
 end
 
-def player_stats(player_name)
+def player_stats(players_name)
 
 # Write code here
 game_hash.each do  |team_location, info|
   info.each  do |players, stats|
-  if info[:player_name] == player_name
-       game_hash[team_location][info][player_name]         
+  if info[:player_name] == players_name
+       game_hash[team_location][info][players_name]         
 end
 end
 end
