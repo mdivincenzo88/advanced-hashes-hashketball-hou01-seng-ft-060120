@@ -182,7 +182,6 @@ end
 
 def player_stats(players_name)
 
-# Write code here
 game_hash.each do  |team_location, info|
   info.each  do |players, stats|
   if info.include? (players_name)
