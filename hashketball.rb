@@ -171,7 +171,7 @@ final_array =[]
 game_hash.each do  |team_location, info|
   if info[:team_name] == team_name
        info[:players].each do |index|
-         final_array.push (info[:players][index][:number])
+         final_array.push (index[:number])
 end
 end
 end
