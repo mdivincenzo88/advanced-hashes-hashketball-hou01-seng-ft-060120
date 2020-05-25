@@ -188,8 +188,7 @@ game_hash.each do  |team_location, info|
        info         
 end
 end
-end
-return final_array
+
 end
 
 
