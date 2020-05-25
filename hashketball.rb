@@ -181,15 +181,18 @@ return final_array
 end
 
 def player_stats(players_name)
-
+final_array =[]
+# Write code here
 game_hash.each do  |team_location, info|
-  info.each  do |players, stats|
-  if info.include? (players_name)
-       return game_hash[team_location][players] [players_name]    
+  if info[:players][:player_name] == players_name
+       info[:players].each do |index|
+         final_array.push (index[:number])
 end
 end
 end
+return final_array
 end
+
 
 
 
