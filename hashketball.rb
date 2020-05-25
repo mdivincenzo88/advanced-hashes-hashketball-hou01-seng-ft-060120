@@ -188,7 +188,6 @@ game_hash.each do  |team_location, info|
 end
 end
 end
-end
 
 
 
