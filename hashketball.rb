@@ -185,7 +185,7 @@ def player_stats(players_name)
 # Write code here
 game_hash.each do  |team_location, info|
   info.each  do |players, stats|
-  if info[:player_name] == players_name
+  if info.include? (players_name)
        return game_has[team_location][info] [players_name]    
 end
 end
