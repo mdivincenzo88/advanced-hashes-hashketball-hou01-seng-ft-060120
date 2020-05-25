@@ -168,7 +168,7 @@ end
 def player_numbers(team_name)
 final_array =[]
 # Write code here
-game_hash.map do  |team_location, info|
+game_hash.each do  |team_location, info|
   if info[:team_name] == team_name
         info[:players][:number].each do |index|
           final_array.push (index)
