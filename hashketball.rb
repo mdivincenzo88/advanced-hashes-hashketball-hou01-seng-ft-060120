@@ -186,7 +186,7 @@ def player_stats(players_name)
 game_hash.each do  |team_location, info|
   info.each  do |players, stats|
   if info[:player_name] == players_name
-       game_hash[team_location][info][players_name]         
+       info][players_name]         
 end
 end
 end
