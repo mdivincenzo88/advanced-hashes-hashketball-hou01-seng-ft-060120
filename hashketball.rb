@@ -184,9 +184,8 @@ def player_stats(player_name)
 final_array =[]
 # Write code here
 game_hash.each do  |team_location, info|
-  if info[:team_name] == team_name
-       info[:players].each do |index|
-         final_array.push (index[:number])
+  if info[:player_name] == player_name
+       info         
 end
 end
 end
