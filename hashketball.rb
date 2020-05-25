@@ -183,7 +183,8 @@ end
 def player_stats(player_name)
 
 # Write code here
-game_hash.map do  |team_location, info|
+game_hash.each do  |team_location, info|
+  info.each |players, stats|
   if info[:player_name] == player_name
        game_hash[team_location][info]         
 end
