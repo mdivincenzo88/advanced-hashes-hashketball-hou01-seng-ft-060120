@@ -180,17 +180,6 @@ end
 return final_array
 end
 
-def player_numbers(team_name)
-final_array =[]
-# Write code here
-game_hash.each do  |team_location, info|
-  if info[:team_name] == team_name
-       info[:players].each do |index|
-         final_array.push (index[:number])
-end
-end
-end
-return final_array
-end
+
 
 
