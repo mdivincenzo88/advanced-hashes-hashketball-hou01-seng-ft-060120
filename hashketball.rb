@@ -181,11 +181,11 @@ return final_array
 end
 
 def player_stats(player_name)
-final_array =[]
+
 # Write code here
 game_hash.each do  |team_location, info|
   if info[:player_name] == player_name
-       info[:players]          
+       game_hash[:][:players][]          
 end
 end
 
