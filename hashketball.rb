@@ -185,7 +185,7 @@ def player_stats(player_name)
 # Write code here
 game_hash.map do  |team_location, info|
   if info[:player_name] == player_name
-       game_hash[team_location][info][player_name]         
+       game_hash[team_location][info]         
 end
 end
 
