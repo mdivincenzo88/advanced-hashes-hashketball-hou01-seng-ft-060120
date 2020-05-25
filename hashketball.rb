@@ -185,7 +185,7 @@ final_array =[]
 # Write code here
 game_hash.each do  |team_location, info|
   if info[:player_name] == player_name
-       info         
+       info[:players]          
 end
 end
 
